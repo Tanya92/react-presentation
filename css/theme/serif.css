@@ -11,7 +11,7 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  background-image: url("/images/background.svg"); }
+  background-image: url("./images/background.svg"); }
 
 .reveal {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
