@@ -14,8 +14,7 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #222;
-  background-color: #222; }
+  background-image: url("/images/background.svg"); }
 
 .reveal {
   font-family: Ubuntu, "sans-serif";
@@ -274,6 +273,15 @@ body {
 @media print {
   .backgrounds {
     background-color: #222; } }
+
+.scale {
+  transform: scale(1.5); }
+
+.scale2 {
+  transform: scale(2); }
+
+.reveal .pre {
+  box-shadow: none; }
 
 .reveal p {
   font-weight: 300;

@@ -5,8 +5,7 @@
  *********************************************/
 
 body {
-	@include bodyBackground();
-	background-color: $backgroundColor;
+	background-image: url("/images/background.svg");
 }
 
 .reveal {
@@ -323,3 +322,16 @@ body {
         background-color: $backgroundColor;
     }
 }
+
+.scale {
+	transform: scale(1.5);
+}
+
+.scale2 {
+	transform: scale(2);
+}
+
+.reveal .pre {
+	box-shadow: none;
+}
+

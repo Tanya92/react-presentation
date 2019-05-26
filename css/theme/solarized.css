@@ -15,8 +15,7 @@ html * {
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #fdf6e3;
-  background-color: #fdf6e3; }
+  background-image: url("/images/background.svg"); }
 
 .reveal {
   font-family: "Lato", sans-serif;
@@ -275,3 +274,12 @@ body {
 @media print {
   .backgrounds {
     background-color: #fdf6e3; } }
+
+.scale {
+  transform: scale(1.5); }
+
+.scale2 {
+  transform: scale(2); }
+
+.reveal .pre {
+  box-shadow: none; }

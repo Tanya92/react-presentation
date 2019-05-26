@@ -11,8 +11,7 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  background-image: url("/images/background.svg");
-  }
+  background-image: url("/images/background.svg"); }
 
 .reveal {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
@@ -21,8 +20,8 @@ body {
   color: #000; }
 
 ::selection {
-  color: #000000;
-  background: #8cd0d3;
+  color: #fff;
+  background: #26351C;
   text-shadow: none; }
 
 ::-moz-selection {
@@ -149,7 +148,7 @@ body {
   font-family: monospace;
   line-height: 1.2em;
   word-wrap: break-word;
-  }
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15); }
 
 .reveal code {
   font-family: monospace;
@@ -272,13 +271,11 @@ body {
   .backgrounds {
     background-color: #F0F1EB; } }
 
-.image_scale {
-  transform: scale(1.5);
-}
+.scale {
+  transform: scale(1.5); }
 
-.image_scale2 {
-  transform: scale(2);
-}
-.code_scale {
-  transform: scale(1.5);
-}
+.scale2 {
+  transform: scale(2); }
+
+.reveal .pre {
+  box-shadow: none; }

@@ -11,8 +11,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #191919;
-  background-color: #191919; }
+  background-image: url("/images/background.svg"); }
 
 .reveal {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
@@ -271,3 +270,12 @@ body {
 @media print {
   .backgrounds {
     background-color: #191919; } }
+
+.scale {
+  transform: scale(1.5); }
+
+.scale2 {
+  transform: scale(2); }
+
+.reveal .pre {
+  box-shadow: none; }
