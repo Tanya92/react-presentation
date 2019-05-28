@@ -15,12 +15,12 @@ More and more functions were added to Facebook Ads app and the team needed more 
 Jordan Walke created FaxJS, the early prototype of React.
 
 **Slide 5: 2012 – Instagram & Facebook**
-Instagram was bought by a Facebook in April 2012.
+Facebook bought Instagram in April 2012.
 Instagram wanted to adopt new Facebook technology. Facebook sought to separate React from Facebook and to make it open-sourced. 
 
 **Slide 6: May 2013 – JS ConfUS**
 Jordan Walk introduced React on JS ConfUS. React became open-sourced.
-Many people thought that React is a big step back because there were early followers here and not innovators. Creators realized it in time and were going to support React tour in summer 2013. React was finally recognized as a success.
+Many people thought that React was a big step back because there were early followers here and not innovators. Creators realized it in time and were going to support React tour in summer 2013. React was finally recognized as a success.
 
 **Slide 7: 2019 – The highest popularity**
 Nowadays React  is one the most popular JS libraries. 
@@ -56,11 +56,11 @@ The other way to define a React component is using the ES6 class syntax and rend
 Class-based components can store information about the current situation. This information is called state. It’s stored in a JS object.
 
 **Slide 17: Image state_example & image state_example2**
-We can see object and  key “isMusicPlaying” with false value. This object is assigned to this.state in the constructor method.
+We can see object and  key “isMusicPlaying” with "false" value. This object is assigned to this.state in the constructor method.
 So, what should we do with this “state”? Why is it invented?
 State is a tool to update the user interface based on events. Here we will use the state to change the appearance of the music playback button, based on a click on it.  Button can be displayed in one of two options . The first indicates the possibility of starting playback, the second - that the music is playing, and this process can be suspended. When a user clicks a button, the state changes and then the user interface is updated.
 Word Class in JS is reserved, JSX – is a combination JS and HTML, and we will use word className to define class to html tag. 
-After header definition we see a string  like a tag, but tag name is a Component name. It means that string calls playButton component and render it. In the tag brackets  the name of component must be followed by a space and then a slash.
+After header definition we see a string  like a tag, but tag name is a Component name. It means that string calls playButton component and renders it. In the tag brackets  the name of component must be followed by a space and then a slash.
 
 **Slide 18: UNIDIRECTIONAL DATA FLOW**
 State is always belong to one component. Any data that affects this state can affect only the following components, that are children.
